@@ -1,0 +1,23 @@
+react testing with react testing library and jest
+
+why testing is important?
+-many different people use your site and they all might perceive how to do things differently
+-to protect against attacks
+-components-> creating or changing a components affects another component when it shouldnt
+
+react testing
+-default App.test.js consists of 3 parts
+    1. render component - render and then can reach elements in the component allows to step 2 (screen)
+    2. select specific html element - ex. the link using its text we can basically say find me the html element which includes link (.getByText())
+    3. find the element which includes this test id (/learn react/i)
+
+    -expect() => checks whether item exists in document
+    -.toBeInTheDocument() =>
+
+react testing crash course
+    -npm run test
+    -press a to run all the tests
+    can check by changing name Learn React in App.js to something else, test should fail
+
+jest vs testing library
+-
