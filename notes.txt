@@ -20,4 +20,11 @@ react testing crash course
     can check by changing name Learn React in App.js to something else, test should fail
 
 jest vs testing library
+-they actually work together
+first reach all those elements we are usingtesting library by using queries
+-we can also interact with out DOM elements like clicking a button mouse over any container (or any javascript event)
+finally dont need dom process anymore
+
+
+real world applications
 -
